@@ -1,0 +1,409 @@
+/*
+   Template CSS for VidyaVikas
+   Author : Nishkarsh Sharma, Pratik Kumar
+*/
+
+@font-face 
+{
+  font-family: "chaparral pro";
+  src: url(ChaparralPro-Regular.otf); 
+  format("truetype");
+}
+
+
+body 
+{
+ font-family : "calibri","arial","georgia";
+ font-weight : "normal";
+ font-size : 15px;
+ color : black;
+ background:#fff;drop
+}
+
+.topbar
+{
+ background:black;
+ color:#fff;
+ opacity:0.6;
+ height:30px;
+}
+
+.cheading
+{
+ font-family:"chaparral pro","arial";
+ font-size:18px;
+ background-color:black;
+ color:white;
+}
+#logotop
+{
+ background: rgb(255, 255, 255);
+min-height: 200px;
+margin-top: 60px;
+opacity: 0.8;
+}
+
+.loginblock
+{
+	display:none;
+}
+
+#SlideShow
+{
+ position:absolute;
+ top:99px;
+ margin-left:490px;
+ width:700px;
+ height:200px;
+ z-index:0;
+ /*box-shadow:10px 10px 5px #888888;*/
+ float:right;
+ overflow:hidden;
+}
+
+.login
+{
+ margin-top: 6px;
+ height: 18px;
+ width: 100px;
+}
+
+#wrapper
+{
+ margin:auto;
+ height:auto;
+ width:1190px;
+ background-color:rgb(240, 240, 240);
+}
+
+#left
+{
+ float:left;
+ width:250px;
+}
+
+#right
+{
+ float:right;
+ height:auto;
+ width:250px;
+}
+
+.main
+{
+ height:auto;
+ min-height:500px;
+ margin-top:3.4%;
+ margin-left:265px;
+ margin-right:265px;
+ margin-bottom:2%;
+ /*background-image:url(/images/trans.png);*/
+ /*background:black;*/
+ color:#000;
+ padding:5px;
+ border-left:1px dotted;
+ border-right:1px dotted;
+}
+
+.maincontent
+{
+ margin-left:4px;
+ margin-right:4px;
+ margin-bottom:4px;
+ box-shadow:10px 10px 10px #888888;
+ border-radius: 20px;
+ color:black;
+ border-style:none;
+ opacity:0.9;
+ background:lightyellow;
+ padding:5px 5px 5px 5px;
+}
+
+.searchbar
+{  
+ box-shadow:10px 10px 10px #888888;
+ border-radius: 20px;
+ width:90%;
+ color:black;
+ margin-right:20px;
+ margin-left:20px;
+ margin-bottom:10px;
+ border-style:none;
+ opacity:0.9;
+ /*-moz-border-radius-bottom-right:50px 25px;
+ border-bottom-left-radius:50px 25px;
+ border-top-left-radius:50px 25px;
+ border-top-right-radius:50px 25px;
+ border-bottom-right-radius:50px 25px;*/
+ background:lightyellow;
+}
+
+.sidebar
+{
+box-shadow: 3px 3px 10px rgb(139, 139, 139);
+max-width: 100%;
+min-height: 350px;
+margin-left: 0%;
+margin-top: 16%;
+margin-bottom: 2%;
+border: 1px outset;
+background:url(../images/paper.jpg);
+background-size:cover;
+/*background: rgba(162, 162, 162, 0.34);*/
+color: rgb(0, 0, 0);
+opacity: 0.9;
+}
+
+.sidebar-content
+{
+ margin-top:3%;
+ margin-left:2%;
+}
+
+
+.inputfield
+{ 
+ text-align : center;
+ margin-right:1%;
+ float:right;
+ width:98.5%;
+}
+
+
+.inputfield:hover { border-color:darkgray;}
+
+.radiobutton
+{
+ margin-left:4%;
+ margin-right:10%;
+}
+
+.componentheading
+{
+ font-family:"chaparral pro","arial";
+ font-size:23px;
+ background:maroon;
+ color:#fff;
+}
+.ctheading
+{
+ font-family:"chaparral pro","arial";
+ font-size:23px;
+ background:black;
+ color:#fff;
+}
+
+.button
+{
+ font-family: "calibri","arial";
+ color: rgb(190, 189, 189);
+ font-weight: bold;
+ font-size:10px;
+ text-transform: uppercase;
+ background-color: black;
+ width: 105px;
+ height: 35px;
+ padding: 1px;
+ border: 1px solid black;
+ /*-moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border: 0px solid black;*/
+}
+
+.button:hover, .button:focus 
+{ 
+ cursor:pointer;
+ color:#fff;
+}
+
+#mainmenu
+{
+ background:black;
+ opacity:0.9;
+}
+
+#searchmenuitems, #profilemenuitems
+{
+	position:absolute;
+	background: black;
+	opacity: 0.8;
+	width: 120px;
+	z-index: 20;
+}
+
+.editdetail
+{
+	display:none;
+}
+
+/*#ucostlogo
+{ top: 200px;
+ background-image:url("../images/ucost_logo.png");
+ width:132px;
+ height:84px;
+ float:left;
+/* margin-top:-30px;*/
+ margin-left:1%;
+ margin-right:8%;
+}
+
+#geulogo
+{
+ background-image:url("../images/geu_logo.png");
+ width:303px;
+ height:63px;
+ float:right;
+ margin-top:-10px;
+ margin-right:1%;
+}
+ 
+#footer
+{
+ border-style:solid;
+ border-width:2px;
+ border-bottom:0px;
+ border-right:0px;
+ border-left:0px;
+ border-color:darkgray;
+ margin-top:2%;
+ margin-bottom:3%;
+ text-align:center;
+ font-family:"calibri","corbel","lithos pro","arial";
+ font-weight:"lighter";
+ clear:both;
+}
+/* Modified by Anubhav Srivastava */
+
+
+#searchresults
+{
+ display:none;
+ max-height:400px;
+ height:auto;
+ margin-top:20px;
+ margin-left:30px;
+ margin-right:30px;
+ overflow: scroll;
+ background: url("../images/paper.jpg")
+}
+.resultitem
+{
+    
+	height:auto;
+    min-height:40px;
+    border-top-color: black;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-size: 20px;
+    cursor: pointer;
+   
+}
+.records
+{
+    
+	height:auto;
+    min-height:10px;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-size: 10px;
+   text-align: right;
+   
+    
+   
+}
+
+
+#page{
+	font-size: 20px;
+	text-align: center;
+	
+}
+div.tagsinput 
+{ 
+border:2px solid #CCC; 
+background: #FFF;
+text-align : center;
+ margin-right:1%;
+ 
+ 
+padding:5px; 
+width:300px; 
+height:30px; 
+overflow-y: auto;
+
+}
+div.tagsinput:hover { border-color:darkgray;}
+div.tagsinput span.tag 
+{
+border: 1px solid black; 
+-moz-border-radius:2px; 
+-webkit-border-radius:2px;
+display: block; float: left;
+padding: 3px; 
+text-decoration:none; 
+background: lightgray;
+color: black; 
+margin-right: 5px;
+margin-bottom:5px;
+font-family: helvetica; 
+font-size:10px;
+}
+div.tagsinput span.tag a 
+{
+font-weight: bold;
+color: #82ad2b;
+text-decoration:none; 
+font-size: 11px;  
+} 
+div.tagsinput input
+{
+ max-width:110px;
+ width:110px;
+font-family: helvetica;
+font-size: 13px;
+border:1px solid transparent;
+padding:5px;
+background: transparent; 
+color: black; outline:0px; 
+margin-right:5px; 
+margin-bottom:5px; 
+}
+div.tagsinput div 
+{
+display:block; 
+float: left;
+} 
+.tags_clear 
+{
+clear: both;
+width: 100%;
+height: 0px;
+}
+.not_valid 
+{
+background: #FBD8DB !important;
+color: #90111A !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    padding-left: 50px;
+}
+ 
+::-webkit-scrollbar-track {
+	
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1.8); 
+    border-radius: 10px;
+    padding-left: 20px;
+   
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1.8); 
+}
+

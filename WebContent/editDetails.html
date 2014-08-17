@@ -1,0 +1,127 @@
+
+
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="icon" type="image/png" href="static/images/favicon.png"/>
+<link rel="stylesheet" type="text/css" media="screen" href="static/css/redmond/jquery-ui-1.8.19.custom.css"/>
+<link rel="stylesheet" type="text/css" media="screen" href="static/css/ui.jqgrid.css"/>
+<link rel="stylesheet" type="text/css" media="screen" href="static/css/ui.multiselect.css"/>
+<link rel="stylesheet" type="text/css" href="static/css/template.css"/>
+<script type="text/javascript" src="./static/js/jquery-1.8.0.js"></script>
+<link rel="stylesheet" type="text/css" href="./static/css/a.css" />
+<link rel="stylesheet" type="text/css" href="./static/jsjquery-ui.css" />
+<script type="text/javascript" src="./static/js/b.js"></script>
+<script src="static/js/jquery.jqGrid.min.js" type="text/javascript"></script>
+<script src="static/js/jquery.jqGrid.min.js" type="text/javascript"></script>
+<!--<script src="static/js/vidyavikas.js" type="text/javascript"></script>-->
+<script type="text/javascript">
+/* Adding Elements */
+
+$(document).ready(function(){
+	
+	//alert("hello");
+	//$("#add_mobile").click(function(){
+		//alert("mobile");
+		//$("#mobile").append("</br><input type=\"text\" id=\"mobile\"/>");
+		//$i.value=$i.value+1;
+	//});
+	
+	
+$("#add_course").click(function(){
+//alert("mobile");
+$("#course").append("<tr><td><input type=\"text\" id=\"coursenamr\"/></td><td>Branch:</td><td><input id=\"tags_1\" type=\"text\" name=\"n\" class=\"tags\" palceholder=\"Enter\" /></p><input type=\"submit\" value=\"SUBMIT\"></td></tr>");
+alert("tgygt");
+$('#tags_1').tagsInput({width:'auto'});
+});
+});
+	</script>
+	<style type="text/css">
+.add
+{
+	
+  cursor:pointer;
+ background-image: url('./static/imgs/addm.jpg');
+ background-repeat:no-repeat;
+ width:25px ;
+ height:25px;
+}
+.rmv
+{
+	
+  cursor:pointer;
+ background-image: url('./static/imgs/rmvm.jpg');
+ background-repeat:no-repeat;
+ width:25px ;
+ height:25px;
+}
+
+	</style>
+</head>
+<body>
+<div id="main" class="main">
+<div id="profile" class="searchbar">
+<form name="profile" method="POST" action="">
+<h2 class="componentheading">
+&nbsp;&nbsp;View/Edit Detais
+</h2>
+<table  style="width: 100%; align: center; " border="0" cellspacing="10" cellpadding="0" style="background:#000">
+<tbody>
+<tr>
+<td style="width:20%"><b>Name:</b></td>
+<td><span class="detail" id="name_detail">College Name</span><span id="name_editdetail" class="editdetail"><input type="text" name="name" value="User's Name"/></span></td>
+</tr>
+<tr>
+<td style="width:20%"><b>Email:</b></td>
+<td><span class="detail" id="email_detail">someone@xyz.com</span><span id="email_editdetail" class="editdetail"><input type="text" name="email" value="someone@xyz.com"/></span></td >
+</tr><tr>
+<td id="mobile"><b>Moblie:</b></td>
+<td><span class="detail" id="mob_detail">+919950682926</span><span id="mob_editdetail" class="editdetail"><input type="text" name="m_no" value="+919950682926"/></span> </td>
+</tr>
+<tr>
+<td><b>Gender:</b></td>
+<td><select name="gender" ><option value=""  Selected="Selected">Select</option>
+<option value="male">Male</option>
+<option value="female">Female</option>
+<option value="other">Other</option>
+</select></td>
+</tr>
+<tr>
+<td style="width:20%"><b>City:</b></td>
+<td><span class="detail" id="city_detail">User's city</span><span id="city_editdetail" class="editdetail"><input type="text" name="city" value="User's city"/></span></td>
+
+</tr>
+<tr>
+<td style="width:20%"><b>State:</b></td>
+<td><span class="detail" id="state_detail">User's state</span><span id="state_editdetail" class="editdetail"><input type="text" name="state" value="User's Name"/></span></td>
+
+</tr>
+<tr>
+<td style="width:20%"><b>State:</b></td>
+<td><span class="detail" id="state_detail">User's state</span><span id="state_editdetail" class="editdetail"><input type="text" name="state" value="User's Name"/></span></td>
+
+</tr>
+<tr>
+<td style="width:20%"><b>Course:</b></td>
+<td><span class="detail" id="course">Course 1</span><span id="state_editdetail" class="editdetail"><input type="text" name="state" value="User's Name"/></span> <input type="button" name="button" id="add_course" class="add"  ><input type="button" name="button" id="rmv_course" class="rmv" ></td>
+
+</tr>
+<td></td>
+<td><input type="submit" id="eprofile" name="eprofile" class="button" value="Save"/></td>
+</tr>
+<tr>
+<td><form  method="POST" action="">
+<p><label>Enter:</label>
+<input id="tags_1" type="text" name="n" class="tags" palceholder="Enter" /></p>
+<input type="submit" value="SUBMIT">
+</form></td>
+</tr>
+</tbody>
+</table>
+</form> 
+<p>&nbsp;</p>
+</div>
+</div>
+</body>
+</html>
